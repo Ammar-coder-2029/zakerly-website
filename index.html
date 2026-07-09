@@ -10,44 +10,44 @@
     <body class="bg-blue-20 text-gray-800 ">
         <header class="w-full bg-blue-50 text-black sticky top-0 z-50 shadow-md px-6 py-4 flex flex-col gap-4 items-center 
                         md:flex-row md:justify-between sm:h-16 md:px-14 md:py-0">
-            <div class="text-xl font-bold text-blue-500">
-                ذاكر لي (Zakerly)
-                
+            <div class="flex space-x-2">
+                <span class="text-3xl font-bold text-blue-500">ذاكر لي</span>
+                <span class="bg-blue-100 text-xs rounded-xl text-blue-700 px-2 py-1">منصة تعليمية</span>
             </div>
 
             <div>
                 <ul class="flex flex-row gap-x-6 font-medium">
                     <li class="hover:text-blue-500 cursor-pointer transition"><a href="#Home">الرئيسية</a></li>
-                    <li class="hover:text-blue-500 cursor-pointer transition"><a href="#Teachers">المعلمون</a></li>
                     <li class="hover:text-blue-500 cursor-pointer transition"><a href="#Academic_stage">المراحل الدارسية</a></li>
+                    <li class="hover:text-blue-500 cursor-pointer transition"><a href="#Teachers">المعلمون</a></li>
                     <li class="hover:text-blue-500 cursor-pointer transition"><a href="#Contact">اتصل بنا</a></li>
                 </ul>
             </div>
 
             <div>
-                <button class="bg-blue-500 text-white px-4 py-1.5 rounded-lg font-semibold hover:bg-blue-900 hover:shadow-md hover:shadow-blue-900 transition">
+                <button class="bg-blue-500 text-white px-4 py-1.5 rounded-lg font-semibold hover:bg-blue-900 hover:shadow-md hover:shadow-blue-900 transition transition-all duration-300 ease-in-out hover:scale-105">
                     تسجيل الدخول
                 </button>
             </div>
             
         </header>
-        <main id="Home" class="w-full min-h-screen flex flex-col p-14 justify-around items-center md:flex-row gap-6">
+        <main id="Home" class="w-full min-h-screen flex flex-col p-14 justify-around items-center md:flex-row gap-6 bg-blue-50">
             <div class="w-5/6 h-[50vh]  flex flex-col items-start justify-around rounded-lg ">
                 <h1 class="text-9xl">h1</h1>
                 <p>aslkjfdlhsdaljfhas;ljfh</p>
                 <p>aslkjfdlhsdaljfhas;ljfh</p>
                 <div class="flex gap-6 w-full">
-                    <input type="button" value="متابعة التقدم" class="px-4 py-1.5 rounded-lg font-semibold bg-blue-500 text-white hover:shadow-md hover:shadow-blue-900 transition hover:bg-blue-950">
-                    <input type="button" value="اشتراك" class="px-4 py-1.5 rounded-lg font-semibold bg-white text-blue-500 hover:shadow-md hover:shadow-blue-900 transition outline outline-blue-100 hover:outline-blue-500">
+                    <input type="button" value="متابعة التقدم" class="px-4 py-1.5 rounded-lg font-semibold bg-blue-500 text-white hover:shadow-md hover:shadow-blue-900 transition-all duration-300 ease-in-out hover:bg-blue-950">
+                    <input type="button" value="اشتراك" class="px-4 py-1.5 rounded-lg font-semibold bg-white text-blue-500 hover:shadow-md hover:shadow-blue-900 transition-all duration-300 ease-in-out outline outline-blue-100 hover:outline-blue-500">
                 </div>
             </div>
-            <div class="w-5/6 h-[50vh] bg-red-900 text-white flex items-center justify-center rounded-lg shadow-md shadow-black relative">
-                <i class="fa-duotone fa-solid fa-chart-line text-[100px]"></i>
+            <div class="w-5/6 h-[50vh] bg-gradient-to-br from-green-700 via-blue-500 to-blue-200 text-white flex items-center justify-center rounded-lg shadow-md shadow-black relative">
+                <i class="fa-solid fa-school text-[100px]"></i>
                 <div class="absolute rounded-full bg-white opacity-50 size-32 bottom-4 right-3"></div>
                 <div class="absolute rounded-full bg-white opacity-50 size-24 top-4 left-5"></div>
-                <div class="bg-gray-100 w-24 h-18 absolute z-3 -bottom-4 -left-4 flex rounded-lg items-center justify-between p-1.5 shadow-lg">
-                    <div><i class="fa-solid fa-users-rays text-2xl text-green-400 text-3xl"></i></div>
-                    <div class="text-black">
+                <div class="bg-gray-100 w-24 h-18 absolute z-10 -bottom-4 -left-4 flex rounded-lg items-center justify-between p-1.5 shadow-lg hover:scale-110 transition-all duration-300 ease-in-out">
+                    <div><i class="fa-solid fa-chalkboard-user text-2xl text-green-400 text-3xl"></i></div>
+                    <div class="text-black hover:scale-105 transition-all duration-300 ease-in-out">
                         <p class="opacity-50">طالب</p>
                         <p class="font-bold">+500</p>
                     </div>
@@ -55,63 +55,178 @@
             </div>
         </main>
 
-        <section id="Academic_stage" class="w-full min-h-screen bg-red-500 flex items-center justify-around flex-col md:flex-row p-8">
-            <div class="w-full md:w-5/6 h-[75vh] bg-red-900 rounded-xl flex flex-col md:flex-row gap-2 items-center justify-center text-white text-2xl shadow-xl">
-                محتوى المراحل الدراسية
+        <section id="Academic_stage" class="w-full min-h-[80] flex items-center justify-around flex-col p-8">
+            <div class="w-full flex flex-col justify-center items-center text-4xl space-y-2">
+                <h1 class="w-full text-center font-bold text-black">مراحل الدراسة عندنا</h1>
+                <p class="w-full text-center font-thin opacity-50 text-black text-2xl">مراحل الدراسة عندنا</p>
+                <span class="w-32 h-0.25 bg-blue-500  rounded-lg p-1"></span>
+            </div>
+            <div class="w-full md:w-5/6 h-[75vh] rounded-xl flex flex-col md:flex-row gap-2 items-center justify-between text-white text-2xl">
+                <div class="group w-[30%] h-fit p-8 flex flex-col justify-center items-start space-y-2 border-2 border-gray-400 text-black rounded-3xl hover:scale-110 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all ease-in-out duration-300">
+                    <span class="transition-all ease-in-out duration-300 group-hover:bg-blue-700 group-hover:text-blue-100 bg-blue-100 text-blue-700 rounded-3xl py-1 px-1.5"><i class="text-[80px] fa-brands fa-google-scholar"></i></span>
+                    <h3 class="font-bold text-5xl">المرحلة الابتدائية</h3>
+                    <p class="font-thin opacity-50 text-3xl">وصف للمرحلة</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>>مميزات</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>مميزات</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>مميزات</p>
+                </div>
+                <div class="group w-[30%] h-fit p-8 flex flex-col justify-center items-start space-y-2 border-2 border-gray-400 text-black rounded-3xl hover:scale-110 hover:border-green-500 hover:shadow-lg hover:shadow-green-500 transition-all ease-in-out duration-300">
+                    <span class="transition-all ease-in-out duration-300 group-hover:bg-green-700 group-hover:text-green-100 bg-green-100 text-green-600 rounded-3xl py-2 px-1.5"><i class="text-[80px] fa-solid fa-user-graduate"></i></span>
+                    <h3 class="font-bold text-5xl">المرحلة الثانوية</h3>
+                    <p class="font-thin opacity-50 text-3xl">وصف للمرحلة</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>مميزات</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>مميزات</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>مميزات</p>
+                </div>
+                <div class="group w-[30%] h-fit p-8 flex flex-col justify-center items-start space-y-2 border-2 border-gray-400 text-black rounded-3xl hover:scale-110 hover:border-red-500 hover:shadow-lg hover:shadow-red-500 transition-all ease-in-out duration-300">
+                    <span class="transition-all ease-in-out duration-300 group-hover:bg-red-500 group-hover:text-red-100 bg-red-100 text-red-500 rounded-3xl py-1 px-1.5"><i class="text-[80px] fa-solid fa-graduation-cap"></i></span>
+                    <h3 class="font-bold text-5xl">المرحلة الاعدادية</h3>
+                    <p class="font-thin opacity-50 text-3xl">وصف للمرحلة</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>مميزات</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>مميزات</p>
+                    <p class="font-thin"><i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i>مميزات</p>
+                </div>
             </div>
         </section>
 
         <section class="flex flex-col justify-around items-center md:flex-row bg-blue-500 w-full h-[20vh] relative overflow-hidden">
             <div class="absolute z-4 rounded-full bg-white opacity-50 size-32 -bottom-8 -right-3"></div>
             <div class="absolute z-4 rounded-full bg-white opacity-50 size-24 -top-4 -left-5"></div>
-            <div class="text-5xl text-white thin">
+            <div class="w-1/5 text-5xl text-white font-thin text-center">
                 <h1 class="font-black">+500</h1>
                 <p>طالب</p>
             </div>
-            <div class="text-5xl text-white thin">
+            <div class="w-1/5 text-5xl text-white font-thin text-center">
                 <h1 class="font-black">+500</h1>
                 <p>طالب</p>
             </div>
-            <div class="text-5xl text-white thin">
+            <div class="w-1/5 text-5xl text-white font-thin text-center">
                 <h1 class="font-black">+500</h1>
                 <p>طالب</p>
             </div>
-            <div class="text-5xl text-white thin">
+            <div class="w-1/5 text-5xl text-white font-thin text-center">
                 <h1 class="font-black">+500</h1>
                 <p>طالب</p>
             </div>
             
         </section>
-        <section id="Teachers" class="w-full min-h-screen bg-green-500 flex flex-col items-center justify-around md:flex-row p-8">
-            <div class="w-full md:w-5/6 h-[75vh] bg-green-900 rounded-xl flex flex-col md:flex-row gap-2 items-center justify-center text-white text-2xl shadow-xl">
-                محتوى قسم المعلمين
+
+        <section id="Teachers" class="w-full min-h-screen flex flex-col items-center justify-around p-8">
+            <div class="w-full flex flex-col justify-center items-center text-4xl space-y-2">
+                <h1 class="w-full text-center font-bold text-black">معلمونا</h1>
+                <p class="w-full text-center font-thin opacity-50 text-black text-2xl">المعلمون المهتمون بجلعكم افضل الطلاب</p>
+                <span class="w-32 h-0.25 bg-blue-500  rounded-lg p-1"></span>
+            </div>
+            <div class="w-full md:w-[95%] h-[75vh] rounded-xl flex flex-col md:flex-row gap-2 items-center justify-between text-white text-2xl">
+                <div class="w-1/4 h-[65vh] shadow-lg flex flex-col justify-between items-center space-y-4 rounded-2xl overflow-hidden pb-8
+                    hover:shadow-lg hover:shadow-blue-500 transition-all ease-in-out duration-300">
+                    <div class="group relative w-full h-2/3 bg-gradient-to-br from-blue-100 to-blue-900 flex flex-col justify-center items-center rounded-t-2xl">
+                        <div><i class="text-[100px] fa-solid fa-person-chalkboard"></i></div>
+                        <div class="hidden absolute bg-black opacity-80 group-hover:block w-full h-full flex items-center justify-center gap-2">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h2 class="text-black text-3xl font-bold">اسم المدرس</h2>
+                    <p class="text-blue-500">مادته</p>
+                    <p class="text-black text-md font-thin">asldfkjlsadlkjf</p>
+                </div>
+
+                <div class="w-1/4 h-[65vh] shadow-lg flex flex-col justify-between items-center space-y-4 rounded-2xl overflow-hidden pb-8
+                    hover:shadow-lg hover:shadow-yellow-500 transition-all ease-in-out duration-300">
+                    <div class="group relative w-full h-2/3 bg-gradient-to-br from-yellow-600 to-red-200 flex flex-col justify-center items-center rounded-t-2xl">
+                        <div><i class="text-[100px] fa-solid fa-person-chalkboard"></i></div>
+                        <div class="hidden absolute bg-black opacity-80 group-hover:block w-full h-full flex items-center justify-center gap-2">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h2 class="text-black text-3xl font-bold">اسم المدرس</h2>
+                    <p class="text-yellow-500">مادته</p>
+                    <p class="text-black text-md font-thin">asldfkjlsadlkjf</p>
+                </div>
+
+                <div class="w-1/4 h-[65vh] shadow-lg flex flex-col justify-between items-center space-y-4 rounded-2xl overflow-hidden pb-8
+                    hover:shadow-lg hover:shadow-green-500 transition-all ease-in-out duration-300">
+                    <div class="group relative w-full h-2/3 bg-gradient-to-br from-green-600 to-blue-300 flex flex-col justify-center items-center rounded-t-2xl">
+                        <div><i class="text-[100px] fa-solid fa-person-chalkboard"></i></div>
+                        <div class="hidden absolute bg-black opacity-80 group-hover:block w-full h-full flex items-center justify-center gap-2">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h2 class="text-black text-3xl font-bold">اسم المدرس</h2>
+                    <p class="text-green-500">مادته</p>
+                    <p class="text-black text-md font-thin">asldfkjlsadlkjf</p>
+                </div>
+
+                <div class="w-1/4 h-[65vh] shadow-lg flex flex-col justify-between items-center space-y-4 rounded-2xl overflow-hidden pb-8
+                    hover:shadow-lg hover:shadow-red-500 transition-all ease-in-out duration-300">
+                    <div class="group relative w-full h-2/3 bg-gradient-to-br from-red-600 to-amber-400 flex flex-col justify-center items-center rounded-t-2xl">
+                        <div><i class="text-[100px] fa-solid fa-person-chalkboard"></i></div>
+                        <div class="hidden absolute bg-black opacity-80 group-hover:block w-full h-full flex items-center justify-center gap-2">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h2 class="text-black text-3xl font-bold">اسم المدرس</h2>
+                    <p class="text-red-500">مادته</p>
+                    <p class="text-black text-md font-thin">asldfkjlsadlkjf</p>
+                </div>
             </div>
         </section>
 
-        <footer id="Contact" class="w-full min-h-[40vh] bg-blue-950 flex flex-col items-center justify-around md:flex-row p-8 ">
-            <div class="w-[95%] h-[65vh] bg-blue-100 rounded-xl flex flex-col gap-2 items-center justify-center text-white text-2xl shadow-xl divide-y divide-gray-800">
-                <div class="flex flex-col md:flex-row gap-2 items-center justify-center h-[85%] w-full">
-                    <div class="flex flex-col justify-start p-5 gap-2 items-center w-1/2 h-full bg-blue-800">
+        <footer id="Contact" class="w-full min-h-[60vh] bg-blue-950 flex flex-col items-center justify-center p-8 divide-y divide-gray-200">
+            <div class="w-[95%] h-[70vh] rounded-xl flex flex-col gap-2 items-center justify-center text-white text-2xl shadow-xl">
+                <div class="flex flex-col md:flex-row gap-2 items-center justify-center h-full w-full">
+                    <div class="flex flex-col justify-start p-5 space-y-4 gap-2 items-center w-1/2 h-full bg-blue-800 rounded-2xl">
                         <h1>تواصل معنا</h1>
                         <input type="text" name="name" id="name" placeholder="الاسم بالكامل" class="bg-blue-950 active:border outline-none border-none active:border-blue-500 rounded-md w-full">
                         <input type="email" name="email" id="email" placeholder="بريدك الالكتروني" class="bg-blue-950 active:border outline-none border-none active:border-blue-500 rounded-md w-full">
                         <input type="text" name="message" id="message" placeholder="اكتب رسالتك..." class="flex flex-col justify-start bg-blue-950 active:border outline-none border-none active:border-blue-500 rounded-md w-full h-full">
                         <input type="submit" value="ابعت الرسالة" class="w-full bg-blue-500 rounded-md">
                     </div>
-                    <div class="flex flex-col justify-start pt-20 gap-2 items-center w-1/2 h-full">
-                        <h1>معلومات التواصل</h1>
-                        <input type="text" name="name" id="name" placeholder="Enter your name" class="bg-blue-950 active:border outline-none border-none active:border-blue-500 rounded-md ">
-                        <input type="email" name="email" id="email" placeholder="Enter your email" class="bg-blue-950 active:border outline-none border-none active:border-blue-500 rounded-md ">
-                        <input type="text" name="message" id="message" placeholder="Enter your message" class="bg-blue-950 active:border outline-none border-none active:border-blue-500 rounded-md ">
+                    <div class="flex flex-col justify-start items-start p-2 gap-2 w-1/2 h-full space-y-6 px-10">
+                        <h1 class="w-full text-center">معلومات التواصل</h1>
+                        <div class="flex items-center gap-2">
+                            <span class="bg-blue-700 text-green-400 rounded-md text-3xl"><i class="fa-solid fa-location-dot"></i></span>
+                            <span>
+                                <h5 class="font-thin text-sm opacity-50 text-white">العنوان</h5>
+                                <p class="font-bold  text-sm text-white">القاهرة, مدينة بدر</p>
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="bg-blue-700 text-green-400 rounded-md text-3xl"><i class="fa-solid fa-phone"></i></span>
+                            <span>
+                                <h5 class="font-thin text-sm opacity-50 text-white">الهاتف</h5>
+                                <p class="font-bold  text-sm text-white">+201002814761</p>
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="bg-blue-700 text-green-400 rounded-md text-3xl"><i class="fa-regular fa-envelope"></i></span>
+                            <span>
+                                <h5 class="font-thin text-sm opacity-50 text-white">البريد الالكتروني</h5>
+                                <p class="font-bold  text-sm text-white">eng.ammar2029@gmail.com</p>
+                            </span>
+                        </div>
+                        <div class="w-full h-full bg-gradient-to-br from-green-700 via-blue-500 to-blue-200 text-white flex items-center justify-center rounded-3xl relative">
+                            <i class="fa-solid fa-users-rectangle text-[100px] bg-green-400 rounded-3xl text-blue-500"></i>
+                            <div class="absolute rounded-full bg-white opacity-50 size-32 bottom-4 right-3"></div>
+                            <div class="absolute rounded-full bg-white opacity-50 size-24 top-4 left-5"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="flex flex-row justify-between items-center w-full h-[5%] text-sm">
-                    <p>@2026/7 تم التصميم بواسطة عمار</p>
-                    <div class="gap-x-2 text-sm">
-                        <a href=""><i class="fa-brands fa-instagram   text-2xl text-gray-400 hover:text-white duration-300 transition-all hover:scale-110"></i></a>
-                        <a href=""><i class="fa-brands fa-facebook-f   text-2xl text-gray-400 hover:text-white duration-300 transition-all hover:scale-110"></i></a>
-                        <a href=""><i class="fa-brands fa-github   text-2xl text-gray-400 hover:text-white duration-300 transition-all hover:scale-110"></i></a>
-                    </div>
+            </div>
+            <div class="flex flex-row justify-between items-center w-full h-[5%] text-sm mt-3 pt-2">
+                <p class="text-white">@2026/7 تم التصميم بواسطة عمار</p>
+                <div class="gap-x-2 text-sm">
+                    <a href=""><i class="fa-brands fa-instagram   text-2xl text-gray-400 hover:text-white transition-all duration-300 ease-in-out hover:scale-110"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f   text-2xl text-gray-400 hover:text-white transition-all duration-300 ease-in-out hover:scale-110"></i></a>
+                    <a href=""><i class="fa-brands fa-github   text-2xl text-gray-400 hover:text-white transition-all duration-300 ease-in-out hover:scale-110"></i></a>
                 </div>
             </div>
         </footer>
